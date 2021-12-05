@@ -1,0 +1,186 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
+li{
+    display: inline;
+    margin-right: 35px;
+}
+li.menu{
+    color: #ef8d21;
+}
+
+button{
+    color: white;
+    background-color: #EF8D21;
+    border-radius: 24px;
+    padding: 15px;
+    border: none;
+    height: 45px;
+    width: 135px;
+    margin-right: 10rem;
+}
+li.right{
+    margin-left: 23rem;
+    
+}
+
+div.logo{
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-left: 9rem;
+}
+
+div.triple{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+img.image1{
+    position: relative;
+    top: 0;
+    left: 30px;
+    
+}
+
+img.image2{
+    position: absolute;
+    top: 50px;
+    left: 8rem;
+}
+
+img.image3{
+    position: absolute;
+    top: 9rem;
+    left: 9rem;
+}
+
+img.image4{
+    position: absolute;
+    top: 14rem;
+    left: 9rem;
+    z-index: 3;
+}
+
+img.button{
+    position: absolute;
+    top: 20rem;
+    left: 6rem;
+    height: 70px;
+    z-index: 3;
+}
+img.leaf{
+    position: absolute;
+    top: 19rem;
+    left: 0;
+    z-index: 1;
+    height: 230px;
+}
+
+
+
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    padding-top: 9rem;
+  }
+  
+  
+  .left {
+    left: 0;
+  }
+  
+  
+  .right {
+    right: 0;
+    
+  }
+  
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  img.guy{
+      position: absolute;
+      z-index: 3;
+      height: 500px;
+      margin-left: 270px;
+  }
+ 
+
+ img.leaf2{
+    position: absolute;
+    top: 28rem;
+    left: 440px;
+    height: 350px;
+    width: 250px;
+    z-index: 3;
+}
+
+img.circle{
+    position: absolute;
+    padding-top: 190px;
+    left: 220px;
+    z-index: 1;
+    height: 315px;
+    width: 315px;
+}
+ 
+img.mini-text{
+    position: absolute;
+    left: 470px;
+}
+img.money{
+    position: absolute;
+    left: 470px;
+    top: 13rem;
+}
+
+.face{
+    position: absolute;
+    left: 265px;
+}
+
+.vector{
+    position: absolute;
+    height: 320px;
+    width: 340px;
+    padding-top: 190px;
+    left: 13rem;
+}   
+.vector2{
+    position: absolute;
+    height: 350px;
+    width: 370px;
+    padding-top: 180px;
+    left: 12rem;
+}
